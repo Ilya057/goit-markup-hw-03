@@ -351,6 +351,9 @@ a.link {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.example-link {
+  display: block;
+}
 .example-text {
   color: var(--primary-text-color);
 
