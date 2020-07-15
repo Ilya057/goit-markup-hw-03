@@ -20,6 +20,8 @@ html {
   --accent: #2196f3;
   --white: #ffffff;
   --bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
+  --border-color: #ececec;
 }
 
 body {
@@ -48,7 +50,9 @@ ul {
 li {
   list-style: none;
 }
-
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
 .container {
   /* outline: solid 2px red; */
 
@@ -236,7 +240,10 @@ a.link {
   /* or 171% */
   letter-spacing: 0.03em;
 }
-.section-team {
+.section.members {
+  background-color: var(--secondary-bg-color);
+}
+.section .section-team {
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
