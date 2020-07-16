@@ -243,6 +243,9 @@ a.link {
 .section.members {
   background-color: var(--secondary-bg-color);
 }
+.members img {
+  display: block;
+}
 .section .section-team {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -251,9 +254,16 @@ a.link {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
+.team-content {
+  text-align: center;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
 
 .team-description {
-  margin-top: 30px;
+  padding-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
   color: var(--secondary-text-color);
 
